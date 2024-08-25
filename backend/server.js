@@ -5,9 +5,9 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.json());
 
-const userId = 'john_doe_17091999';  // Change as per your requirement
-const email = 'john@xyz.com';
-const rollNumber = 'ABCD123';
+const userId = 'Pal';  // Change as per your requirement
+const email = 'pal12052003@gmail.com';
+const rollNumber = '21BCE2603';
 
 // POST Endpoint
 app.post('/bfhl', (req, res) => {
